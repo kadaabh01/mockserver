@@ -52,18 +52,17 @@
     "Auth": {
         "access_token": {
             "string": [
-                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjRhNGE5NGM2NjczOGYxMzg1NGI0NzQiLCJ1c2VybmFtZSI6ImFtcnpha2kiLCJpYXQiOjE2NTA5ODU0MDl9.EptG_kF70u_GB63quvTg4Fw9m3M_kfwd19P3zu4-Lzo",
-                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjRhNGE5NGM2NjczOGYxMzg1NGI0NzQiLCJ1c2VybmFtZSI6ImFtcnpha2kiLCJpYXQiOjE2NTA5ODU0MDl9.EptG_kF70u_GB63quvTg4Fw9m3M_kfwd19P3zu4-123"
+                "Bearer c1f429cfdc6add4a6afc36ec6ba3cfa293a6977bd9ca85f918bef6c0ae12ae34"
             ]
         },
         "first_name": {
-            "string": {}
+            "string": ["Abhi"]
         },
         "last_name": {
-            "string": {}
+            "string": ["K"]
         },
         "email_name": {
-            "string": {}
+            "string": ["abhi.k@mail.com"]
         }
     }
 }
