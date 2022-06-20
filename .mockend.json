@@ -31,5 +31,19 @@
           "max": "2020-12-31T23:59:59Z"
         }
       }
+    },
+    "Users": {
+        "name": {
+            "string":[]
+        },
+        "id": {
+            "number":[]
+        },
+        "email": {
+            "string":[]
+        },
+        "title": {
+            "string":[]
+        }
     }
   }
