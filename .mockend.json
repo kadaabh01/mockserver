@@ -33,7 +33,7 @@
         }
     },
     "User": {
-        "id": {"int":{}},
+        "id": {"int":{"min":0, "max":50}},
         "first_name": {"string":{}}
        }
 }
