@@ -1,49 +1,61 @@
 {
     "Post": {
-      "cover": {
-        "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-      },
-      "title": {
-        "loremWords": {
-          "minLength": 5,
-          "maxLength": 20
-        }
-      },
-      "body": {
-        "loremParagraphs": {
-          "minLength": 10,
-          "maxLength": 100
-        }
-      },
-      "tag": {
-        "string": [
-          "one",
-          "two",
-          "three"
-        ]
-      },
-      "isDraft": {
-        "boolean": {}
-      },
-      "createdAt": {
-        "dateTime": {
-          "min": "2010-01-01T00:00:00Z",
-          "max": "2020-12-31T23:59:59Z"
-        }
-      }
-    },
-    "Users": {
-        "name": {
-            "string":[]
-        },
-        "id": {
-            "int":[]
-        },
-        "email": {
-            "string":[]
+        "cover": {
+            "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
         },
         "title": {
-            "string":[]
+            "loremWords": {
+                "minLength": 5,
+                "maxLength": 20
+            }
+        },
+        "body": {
+            "loremParagraphs": {
+                "minLength": 10,
+                "maxLength": 100
+            }
+        },
+        "tag": {
+            "string": [
+                "one",
+                "two",
+                "three"
+            ]
+        },
+        "isDraft": {
+            "boolean": {}
+        },
+        "createdAt": {
+            "dateTime": {
+                "min": "2010-01-01T00:00:00Z",
+                "max": "2020-12-31T23:59:59Z"
+            }
+        }
+    },
+    "User": {
+        "id": "uuid",
+        "first_name": "firstName",
+        "last_name": "lastName",
+        "email": "email",
+        "birth_day": {
+            "date": "Y-m-d"
+        },
+        "bio": {
+            "text": [
+                100
+            ]
+        },
+        "latitude": {
+            "latitude": [
+                -45,
+                45
+            ]
+        },
+        "longitude": {
+            "longitude": [
+                -90,
+                90
+            ]
         }
     }
-  }
+}
